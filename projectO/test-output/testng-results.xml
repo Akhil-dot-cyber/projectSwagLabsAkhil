@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser terminate done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-28T11:48:58 IST" name="Default suite" finished-at="2025-07-28T11:49:06 IST" duration-ms="7705">
+    <groups>
+    </groups>
+    <test started-at="2025-07-28T11:48:58 IST" name="Default test" finished-at="2025-07-28T11:49:06 IST" duration-ms="7705">
+      <class name="producttest.TeamOTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:48:58 IST" name="BrowserSetup" finished-at="2025-07-28T11:49:02 IST" duration-ms="3727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:03 IST" name="Login" finished-at="2025-07-28T11:49:03 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Verify_If_User_Is_Able_To_Order_3_Products(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:03 IST" name="Verify_If_User_Is_Able_To_Order_3_Products" data-provider="checkOutInfo" finished-at="2025-07-28T11:49:05 IST" duration-ms="1897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zipcode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_If_User_Is_Able_To_Order_3_Products -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:05 IST" name="logOut" finished-at="2025-07-28T11:49:06 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:06 IST" name="BrowserTerminate" finished-at="2025-07-28T11:49:06 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser terminate done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserTerminate -->
+      </class> <!-- producttest.TeamOTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
