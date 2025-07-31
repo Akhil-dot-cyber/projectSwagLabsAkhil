@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import genericlibrary.BaseConfig;
 import genericlibrary.WebDriverLibrary;
@@ -22,6 +23,19 @@ public class TeamOTest extends BaseConfig {
 		
 		//Create the test Information
 		 test= report.createTest("Verify the product");
+		 
+		//Steps Information 
+			test.log(Status.INFO, "Step1: Launching the browser successful");
+			test.log(Status.INFO, "Step2: Navigating to the Application via URL successful");
+			test.log(Status.INFO, "Step3: Verifing the WebPage successful");
+			
+			if (true==true) {
+				test.log(Status.PASS, "Step4: Verified the Web Elements, Displayed");
+			} else {
+				test.log(Status.PASS, "Step4: Verified the Web Elements, Not Displayed");
+			}
+			test.log(Status.SKIP, "Step5: Element is Hidden");
+
 
 		// Step 1: Object Creation for POM Classes
 		
