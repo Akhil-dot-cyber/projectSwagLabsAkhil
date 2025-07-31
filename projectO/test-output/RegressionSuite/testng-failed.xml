@@ -6,10 +6,12 @@
     <classes>
       <class name="producttest.TeamOTest">
         <methods>
+          <include name="ReportSetup"/>
           <include name="BrowserSetup"/>
-          <include name="productorder"/>
+          <include name="Verify_If_User_Is_Able_To_Order_3_Products" invocation-numbers="0"/>
           <include name="Login"/>
           <include name="logOut"/>
+          <include name="RepoertTerminate"/>
           <include name="BrowserTerminate"/>
         </methods>
       </class> <!-- producttest.TeamOTest -->

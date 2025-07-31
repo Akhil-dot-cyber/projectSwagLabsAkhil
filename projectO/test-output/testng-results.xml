@@ -5,20 +5,24 @@
       <![CDATA[browser terminate done]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-28T11:48:58 IST" name="Default suite" finished-at="2025-07-28T11:49:06 IST" duration-ms="7705">
+  <suite started-at="2025-07-31T10:52:07 IST" name="RegressionSuite" finished-at="2025-07-31T10:52:14 IST" duration-ms="7533">
     <groups>
     </groups>
-    <test started-at="2025-07-28T11:48:58 IST" name="Default test" finished-at="2025-07-28T11:49:06 IST" duration-ms="7705">
+    <test started-at="2025-07-31T10:52:07 IST" name="Test" finished-at="2025-07-31T10:52:14 IST" duration-ms="7533">
       <class name="producttest.TeamOTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:48:58 IST" name="BrowserSetup" finished-at="2025-07-28T11:49:02 IST" duration-ms="3727" status="PASS">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:07 IST" name="ReportSetup" finished-at="2025-07-31T10:52:07 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:07 IST" name="BrowserSetup" finished-at="2025-07-31T10:52:10 IST" duration-ms="2874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:03 IST" name="Login" finished-at="2025-07-28T11:49:03 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:11 IST" name="Login" finished-at="2025-07-31T10:52:11 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Verify_If_User_Is_Able_To_Order_3_Products(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:03 IST" name="Verify_If_User_Is_Able_To_Order_3_Products" data-provider="checkOutInfo" finished-at="2025-07-28T11:49:05 IST" duration-ms="1897" status="PASS">
+        <test-method signature="Verify_If_User_Is_Able_To_Order_3_Products(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:11 IST" name="Verify_If_User_Is_Able_To_Order_3_Products" data-provider="checkOutInfo" finished-at="2025-07-31T10:52:13 IST" duration-ms="2003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,18 +43,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_If_User_Is_Able_To_Order_3_Products -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:05 IST" name="logOut" finished-at="2025-07-28T11:49:06 IST" duration-ms="743" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:13 IST" name="logOut" finished-at="2025-07-31T10:52:14 IST" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:producttest.TeamOTest@6989da5e]" started-at="2025-07-28T11:49:06 IST" name="BrowserTerminate" finished-at="2025-07-28T11:49:06 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:14 IST" name="BrowserTerminate" finished-at="2025-07-31T10:52:14 IST" duration-ms="250" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser terminate done]]>
             </line>
           </reporter-output>
         </test-method> <!-- BrowserTerminate -->
+        <test-method is-config="true" signature="RepoertTerminate()[pri:0, instance:producttest.TeamOTest@6743e411]" started-at="2025-07-31T10:52:14 IST" name="RepoertTerminate" finished-at="2025-07-31T10:52:14 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RepoertTerminate -->
       </class> <!-- producttest.TeamOTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
 </testng-results>

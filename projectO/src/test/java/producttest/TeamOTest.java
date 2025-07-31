@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import genericlibrary.BaseConfig;
 import genericlibrary.WebDriverLibrary;
 import pagerepository.CartPage;
@@ -16,6 +18,10 @@ public class TeamOTest extends BaseConfig {
 	
 	@Test(dataProvider = "checkOutInfo", priority = 1, invocationCount = 1)
 	public void Verify_If_User_Is_Able_To_Order_3_Products(String firstname, String lastname, String zip) {
+
+		
+		//Create the test Information
+		 test= report.createTest("Verify the product");
 
 		// Step 1: Object Creation for POM Classes
 		
